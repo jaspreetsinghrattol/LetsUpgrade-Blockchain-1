@@ -1,0 +1,43 @@
+Day 1 Assignment
+Q1. What is your understanding of Blockchain?
+Ans- Blockchain is about enabling peer to peer transaction in a decentralized network, Establishing trust among unknown peers, Recording the transaction in immutable distributed ledger .
+
+Q2. What is the core problem blockchain trying to solve?
+The core problems in Blockchain:
+1)Block chain can be slow while Transactions can take a while to process when
+the user number increases
+2) Authenticity
+3) Security
+4) Organization must determine which transactions or interactions the blockchain should capture and who should have access to which portions.
+i.e Need of third party trust
+
+Q3. What are the few features which blockchain will give u?
+Features of a Blockchain:
+1)Verifiable
+2)Unchanged
+3)Tamper-Proof
+4)Immutable
+5)Transparency
+
+Q4. What all things does a Block Contain?
+Ans : Blockchain contains:
+1)Number of Transactions
+2)Transaction Fees
+3)Nonce
+4)Previous Block Hash Value
+5)Gas Used
+6)Gas Limit
+7)Mining Key
+
+
+Q5. How is the verifiability of Blockchain is been attained ?
+Verifiability can be attained by
+Genesis Block /Block 1
+0 + new data = Fingerprint 1
+
+Block 2
+Fingerprint 1 + new data = Fingerprint 2
+
+and this chain continues.
+
+If someone change the data then fingerprint value/Hash value also change , so it is not match the Original Hash Value present in the Next Block , i.e Block 2
